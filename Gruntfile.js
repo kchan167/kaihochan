@@ -381,6 +381,7 @@ module.exports = function (grunt) {
           src: [
             '*.{ico,png,txt}',
             '*.html',
+            'data/*',
             'images/{,*/}*.{webp}',
             'styles/fonts/{,*/}*.*'
           ]

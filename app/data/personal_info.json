@@ -79,42 +79,42 @@
         {
             "id": "animal_card",
             "title": "Animal Card",
-            "icon": "styles/icon/dog.png"
+            "icon": "images/icon/dog.png"
         },
         {
             "id": "portfolio_site",
             "title": "Portfolio",
-            "icon": "styles/icon/portfolio.png"
+            "icon": "images/icon/portfolio.png"
         },
         {
             "id": "memory_game",
             "title": "Memory Game",
-            "icon": "styles/icon/flash.png"
+            "icon": "images/icon/flash.png"
         },
         {
             "id": "classic_arcade_game",
             "title": "Classic Arcade Game",
-            "icon": "styles/icon/arcade-machine.png"
+            "icon": "images/icon/arcade-machine.png"
         },
         {
             "id": "feed_reader_testing",
             "title": "Feed Reader Testing",
-            "icon": "styles/icon/chip.png"
+            "icon": "images/icon/chip.png"
         },
         {
             "id": "mws_restaurant_stage_1",
             "title": "Restaurant Review App",
-            "icon": "styles/icon/doughnut.png"
+            "icon": "images/icon/doughnut.png"
         },
         {
             "id": "itunes_artist_search",
             "title": "Itunes Artist Search",
-            "icon": "styles/icon/itunes.png"
+            "icon": "images/icon/itunes.png"
         },
         {
             "id": "calculator",
             "title": "Calculator",
-            "icon": "styles/icon/calculating.png"
+            "icon": "images/icon/calculating.png"
         }
     ]
 }

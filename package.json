@@ -43,6 +43,7 @@
     "test": "karma start test/karma.conf.js"
   },
   "dependencies": {
+    "express": "^4.16.3",
     "grunt-jscpd": "0.0.12"
   }
 }
