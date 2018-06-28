@@ -443,7 +443,7 @@ module.exports = function (grunt) {
     },
     heroku: {
       options: {
-        remote: 'git@heroku.com:example-heroku-webapp-1988.git',
+        remote: 'git@heroku.com:still-island-58411.git',
         branch: 'master',
         tag: pkg.version
       }
