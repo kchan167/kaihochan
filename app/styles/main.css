@@ -515,10 +515,10 @@ ul .app-list-item {
         margin-left: 10px;
     }
     .app-detail-container {
-        min-height: 735px;
+        min-height: 705px;
     }
     .app-detail-view-container {
-        min-height: 735px;
+        min-height: 705px;
     }
     .app-view-container {
         padding-left: 0px;

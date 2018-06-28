@@ -382,7 +382,8 @@ module.exports = function (grunt) {
             '*.{ico,png,txt}',
             '*.html',
             'data/*',
-            'images/{,*/}*.{webp}',
+            'images/*',
+            'service_worker.js',
             'styles/fonts/{,*/}*.*'
           ]
         }, {
