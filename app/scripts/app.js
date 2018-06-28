@@ -23,6 +23,11 @@
          console.log('ServiceWorker registration failed: ', err);
      });
  }
+
+angular.module('app', []).config(function($locationProvider) {
+      $locationProvider.html5Mode(true);
+    });
+
 angular
   .module('personalSiteApp', ['ui.router'])
   .config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider){
