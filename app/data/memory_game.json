@@ -1,0 +1,30 @@
+{
+    "id": "memory-game",
+    "title": "Memory Game",
+    "img":
+        [
+            "images/matching_game_won.jpg",
+            "images/matching_game.jpg"
+        ],
+    "url":
+        [
+            "https://github.com/kchan167/memory-game",
+            "https://kchan167.github.io/memory-game/"
+        ],
+    "skills":
+        [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "DOM"
+        ],
+    "descriptions":
+        [
+            "This games consist of 16 random cards in a 4x4 grid.",
+            "Flip a card and reveal its symbol.",
+            "Flip another card to find the one match the same symbol.",
+            "If two cards have the same symbol, they will be locked and kept showing.",
+            "If two cards do not match, both are returned hidden.",
+            "The game ends once player finds match all the cards."
+        ]
+}

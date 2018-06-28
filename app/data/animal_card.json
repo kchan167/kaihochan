@@ -1,0 +1,21 @@
+{
+    "id": "animal_card",
+    "title": "Animal Trading Card",
+    "img":
+        [
+            "images/animal_card.jpg"
+        ],
+    "url":
+        [
+            "https://github.com/kchan167/animal_card"
+        ],
+    "skills":
+        [
+            "HTML",
+            "CSS"
+        ],
+    "descriptions":
+        [
+            "This project is to use what I have learned about HTML and CSS to convert a design prototype into a functional webpage."
+        ]
+}

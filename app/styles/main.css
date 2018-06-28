@@ -1,0 +1,667 @@
+html,body
+{
+    height:100%;
+    overflow-x: auto;
+}
+
+/* Background image */
+body {
+    background: url('background/pexels-photo-323933.jpeg') no-repeat fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.well {
+    border-radius: 0;
+}
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+  background-color: grey;
+  height: 100vh;
+}
+
+.container {
+    width: 100vw;
+    margin: 0 auto;
+    padding: 0px;
+    display: table-cell;
+}
+
+.font-white {
+    color: white;
+}
+.font-default {
+    color: #777;
+}
+
+.text-border {
+    text-shadow: 2px 2px black;
+}
+
+.navbar-1 {
+    background: #222;
+    margin: 0;
+}
+.navbar-1 .navbar-1-text {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.ui-view-container {
+    width: 100vw;
+}
+
+/* Aboutme Container */
+.aboutme-container {
+    height: 300px;
+    color: white;
+    background: #222;
+    padding: 20px;
+    margin-bottom: 0px;
+    background-image: url("background/computer.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.portrait {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.aboutme-text {
+    color: #337ab7;
+}
+
+.aboutme-container .row {
+    margin-top: 100px;
+}
+
+/* Center buttons */
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button {
+    margin: auto 40px;
+}
+
+/* Custom nav bar for app list */
+.app-nav {
+    background-color: #222;
+    float: none;
+}
+.app-view-container {
+    padding: 0;
+}
+div .navbar-header {
+    margin-bottom: 0px;
+}
+
+.navbar-header a {
+    margin-left: 10px;
+}
+
+.navbar-header button {
+    margin-right: 20px;
+}
+
+button p {
+    margin: auto;
+}
+.app-nav h3 {
+    text-align: center;
+    color: white;
+}
+.app-list-nav {
+    background-image: url('background/wood_pattern.png');
+}
+
+.app-nav-button {
+    background-color: white;
+}
+.app-nav-button span {
+    color: grey;
+}
+
+ul .app-list-item {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-btn {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 100px;
+    white-space: normal;
+    border-radius: 50%;
+}
+
+/* Center Button text */
+.navbar-btn p {
+    margin: auto;
+}
+
+
+.app-detail-container h3{
+    font-size: 50px;
+    text-align: center;
+}
+
+.techniques {
+    list-style: none;
+}
+.techniques li {
+  font-size: 12px;
+  background: #222;
+  display: inline-block;
+  *display: inline;
+  padding: 6px;
+  color: white;
+  margin-right: 1px;
+}
+
+.github-container {
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.github-container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border-color: white;
+}
+
+/* Github button */
+.github-button {
+    border-radius: 3px 0 0 3px;
+    cursor: pointer;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.github-button:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+
+
+.app-detail-view-container {
+    background-image: url('background/wood_pattern.png');
+    min-height: 300px;
+}
+
+.github-header {
+    height: 150px;
+    background: #222;
+    text-align: center;
+}
+
+.github-header h4 {
+    font-size: 24px;
+    padding-top: 50px;
+}
+.github-header h3 {
+    margin-top: -30px;
+    font-size: 60px;
+}
+
+/* Contact View */
+.contact-view {
+    text-align: center;
+    background-image: url('background/phone-1.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.contact-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-button-container a {
+    display: flex;
+    justify-content: center;
+}
+/* Contact-button */
+.contact-btn {
+    margin: 10px;
+    width: 142px;
+    height: 60px;
+}
+
+.contact-btn span {
+    text-shadow: 0px 0px #222;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  text-align: center;
+}
+
+.timer {
+    color: white;
+}
+/* Custom page header */
+.header {
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  margin-top: 20px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.footer-icon {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border: 0px;
+}
+
+.contact-button-container p{
+    margin: 0 10px 0;
+}
+
+.credit {
+    color: white;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* About Me */
+.row div p {
+    text-align: center;
+}
+
+/* About Me - Timeline */
+.timeline {
+    background: url('background/light-1.jpeg');
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    margin-top: -5px;
+    padding-bottom: 20px;
+}
+
+/* Fixed Background Scrolling */
+.image-section {
+    min-height: 300px;
+    width: 100%;
+}
+
+.image-section h3 {
+    padding-top: 150px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+/* timeline */
+.timeline ul {
+    padding: 0;
+}
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 5px;
+  margin: 5px auto;
+  padding-top: 80px;
+  background: #337ab7;
+}
+
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+}
+
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 300px;
+  padding: 15px;
+  background-image: url('background/memphis-colorful.png');
+}
+
+.timeline ul li div::before {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) div {
+  left: 45px;
+  border-radius: 10% 10% 10% 0;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 5px 0;
+  border-color: transparent white transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+  left: -339px;
+  border-radius: 10% 10% 0 10%;
+}
+
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Toggle show/hide timeline */
+.timeline ul li::after {
+  background: #fff;
+  transition: background .5s ease-in-out;
+}
+
+.timeline ul li.in-view::after {
+  background: #d9534f;
+}
+
+.timeline ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+}
+
+.timeline ul li:nth-child(odd) div {
+  transform: translate3d(200px,0,0);
+}
+
+.timeline ul li:nth-child(even) div {
+  transform: translate3d(-200px,0,0);
+}
+
+.timeline ul li.in-view div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+/* Responsive for timeline */
+@media screen and (max-width: 900px) {
+  .timeline ul li div {
+    width: 250px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -289px; /*250+45-6*/
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .timeline ul li {
+    margin-left: 20px;
+  }
+
+  .timeline ul li div {
+    width: calc(100vw - 150px);
+  }
+
+  .timeline ul li:nth-child(even) div {
+    border-radius: 10% 10% 10% 0;
+    left: 45px;
+  }
+
+  .timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent white transparent transparent;
+  }
+}
+
+@media screen and (max-width: 359px) {
+    .timeline ul li:nth-child(odd) div {
+        transform: none;
+        visibility: visible;
+        opacity: 1;
+        left: 45px;
+    }
+    .timeline ul li:nth-child(even) div {
+        transform: none;
+        visibility: visible;
+        opacity: 1;
+        left: 45px;
+    }
+}
+
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+@media screen and (min-width: 968px) {
+    .navbar-btn {
+        width: 128px;
+        height: 128px;
+    }
+
+    .github-container {
+        height: 600px;
+    }
+
+    .github-container img {
+        width: auto;
+        height: auto;
+    }
+    .aboutme-container {
+        height: 500px;
+    }
+    .aboutme-container .row {
+        margin-top: 200px;
+    }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .navbar-1 {
+        border-radius: 0px;
+    }
+    .navbar > .container .navbar-1-text {
+        margin-left: 10px;
+    }
+    .app-detail-container {
+        min-height: 705px;
+    }
+    .app-detail-view-container {
+        min-height: 705px;
+    }
+    .app-view-container {
+        padding-left: 0px;
+    }
+    .contact-button-container {
+        justify-content: center;
+    }
+    .image-section {
+        height: 350px;
+    }
+    .app-view-container .app-list-nav {
+        height: 649px !important;
+    }
+}
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+
+@media screen and (max-width: 767px) {
+    .timeline-item {
+        margin: 0px auto;
+    }
+    div .app-view-container {
+        padding: 0px;
+    }
+}
+
+/* Slideshow */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+    height: 300px;
+}
+
+/* Center Images */
+.mySlides img {
+    display: block;
+    margin: auto;
+    max-width: 50%;
+    max-height: 300px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #222;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation: fadein ease-in-out 1.5s forwards;
+  -moz-animation: fadein ease-in-out 1.5s forwards;
+  -ms-animation: fadein ease-in-out 1.5s forwards;
+  -o-animation: fadein ease-in-out 1.5s forwards;
+  animation: fadein ease-in-out 1.5s forwards;
+}
+
+@-webkit-keyframes fadein {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fadein {
+  from {opacity: .4}
+  to {opacity: 1}
+}

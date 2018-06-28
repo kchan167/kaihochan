@@ -1,0 +1,41 @@
+<div class="aboutme-container">
+    <div class="row">
+        <div class="col-md-12">
+            <p class="text-border">
+                <img class="portrait" src="{{ about.data.img }}">
+                <strong>
+                    Hello! I'm Kai and currently study in computer science.
+                </strong>
+            </p>
+        </div>
+    </div>
+    <div class="buttons">
+        <button class="btn btn-primary" ng-click="about.openResume(about.data.resume)">Resume</button>
+        <button class="btn btn-primary" ng-click="about.openLinkedin(about.data.linkedin)">Linkedin</button>
+    </div>
+</div>
+<div class="image-section">
+    <h3 tabindex="0">Education</h3>
+</div>
+<div class="">
+
+</div>
+<section class="timeline">
+    <ul>
+        <li class="timeline-item" tabindex="0" scroll ng-repeat="item in about.data.educations">
+            <div>
+                <h2 class="font-default">{{ item.date }}</h2>
+                <h3 class="font-default">{{ item.title }}</h3>
+                <h4 class="font-default">{{ item.school }}</h4>
+                <p class="font-default" ng-repeat="description in item.descriptions">{{ description }}</p>
+                <span ng-if="item.more">
+                    <p class="text-primary" ng-if="!item.toggle" ng-click="toggleFilter(item)"><strong><u>Show More</u></strong></p>
+                    <span ng-show="item.toggle">
+                        <p class="font-default" ng-repeat="detail in item.more"> {{ detail }}</p>
+                        <p class="text-primary" ng-click="toggleFilter(item)"><strong><u>Show Less</u></strong></p>
+                    </span>
+                </span>
+            </div>
+        </li>
+    </ul>
+</section>

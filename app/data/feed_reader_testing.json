@@ -1,0 +1,28 @@
+{
+    "id": "feed_reader_testing",
+    "title": "Feed Reader Testing",
+    "img":
+        [
+            "images/feed-reader-testing.png"
+        ],
+    "skills":
+        [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "DOM manipulation",
+            "Event Handling",
+            "Test Suite"
+        ],
+    "url":
+        [
+            "https://github.com/kchan167/feeder-reader-testing"
+        ],
+    "descriptions":
+        [
+            "This project I was given a web-based application that reads RSS feeds and already included Jasmine.",
+            "The main purpose of this project is to learn about testing with Javascript.",
+            "Testing is an important part of the development process and many organizations practice a standard known as 'test-driven development' or TDD.",
+            "This is when developers write tests first, before they ever start developing their application."
+        ]
+}

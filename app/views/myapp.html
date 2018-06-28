@@ -1,0 +1,75 @@
+<!-- App View Container -->
+<div class="app-view-container
+            app-lists
+            col-xs-12
+            col-sm-6
+            col-md-6
+            col-lg-6">
+    <!-- App List Container -->
+    <div class="navbar-header well app-nav">
+
+      <button type="button" class="navbar-toggle collapsed app-nav-button" data-toggle="collapse" data-target="#app-list">
+        <span class="sr-only">Toggle App navigation</span>
+        <span class="">...</span>
+      </button>
+      <!-- Need to add class and style -->
+      <h3 tabindex="-1">App List</h3>
+    </div>
+    <div class="collapse navbar-collapse well app-list-nav" id="app-list">
+
+      <ul class="nav navbar-nav app-list-container" role="menubar">
+        <li class="col-xs-6 col-sm-6 col-md-6 col-lg-6 app-list-item" role="menuitem" tabindex="-1" ng-repeat="app in apps.applist">
+            <div bg-img="{{ app.icon }}" ui-sref="myApp.details({ id: app.id })" id="{{app.title}}" role="button" class="btn btn-danger navbar-btn">
+                <p><strong class="text-border">{{ app.title }}</strong></p>
+            </div>
+        </li>
+      </ul>
+    </div>
+
+
+    <!-- Show/Hide Details -->
+    <!-- <div class="app-list-container">
+        <div ng-repeat="app in apps.applist"
+             class="app-infoapp-container"
+             id="{{ app.id }}">
+            <h4>{{ app.title }}</h4>
+            <p><a ui-sref="myApp.details({ id: app.id })">View Details</a></p>
+            <img ng-src="{{ app.img }}" alt="{{ app.title }}'s image">
+
+            <button ng-click="toggleFilter(app)">Show Detail</button>
+            <div ng-show="app.toggle">
+                <p>The app name is {{ app.title }}</p>
+            </div>
+        </div>
+    </div> -->
+</div>
+<!-- App Detail View Container -->
+<div class="app-detail-view-container
+            col-xs-12
+            col-sm-6
+            col-md-6
+            col-lg-6
+            ">
+    <!-- App Detail Container -->
+    <div ui-view class="app-detail-container">
+        <h3 class="">Please Choose a app from the app list<h3>
+    </div>
+</div>
+<div class="github-header
+            col-xs-12
+            col-sm-12
+            col-md-12
+            col-lg-12
+            font-white
+            ">
+    <h4> GitHub Main Page</h4>
+    <h3>⌄</h3>
+</div>
+<div class="github-container
+            col-xs-12
+            col-sm-12
+            col-md-12
+            col-lg-12
+            ">
+    <img class="github-button img-responsive btn btn-white" role="button" ng-click="redirect(apps.github);" src="/styles/icon/github-logo.png" ></img>
+</div>

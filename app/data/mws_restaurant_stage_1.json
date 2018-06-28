@@ -1,0 +1,28 @@
+{
+    "id": "mws_restaurant_stage_1",
+    "title": "Restaurant Review App",
+    "img":
+        [
+            "images/restaurant-review-app.png",
+            "images/restaurant-review-app-mobile.png",
+            "images/restaurant-review-app-mobile-2.png",
+            "images/restaurant-review-app-mobile-3.png"
+        ],
+    "skills":
+        [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "DOM manipulation",
+            "ARIA",
+            "Service Worker"
+        ],
+    "url":
+        [
+            "https://github.com/kchan167/mws-restaurant-stage-1"
+        ],
+    "descriptions":
+        [
+            "For the Restaurant Reviews projects, I convert a static webpage to a mobile-ready web application. In Stage One, I take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. I also add a service worker to begin the process of creating a seamless offline experience for my users."
+        ]
+}

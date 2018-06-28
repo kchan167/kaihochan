@@ -1,0 +1,20 @@
+<div class="contact-view well font-white text-border">
+    <h1>Contact Information</h1>
+    <p>Name: {{ contact.contacts.firstname }} {{ contact.contacts.lastname }}</p>
+    <p>Email: {{ contact.contacts.email }}</p>
+    <p>Phone: {{ contact.contacts.phone }}</p>
+    <p>Address: {{ contact.contacts.address }}</p>
+    <div class="contact-button-container">
+        <a class="contact-btn center-text btn btn-primary btn-lg"
+          role="button"
+          aria-disabled="true"
+          ng-href="{{ contact.contacts.linkedin }}">
+          <span>Linkedin</span>
+        </a>
+        <button class="contact-btn btn btn-lg btn-primary" ng-click="contact.mailWithLocation(contact.contacts.email)">Email</button>
+        <!-- <button class="contact-btn btn-lg btn-primary" ng-click="contact.mailWithWindowOpen(contact.contacts.email)">Window Email</button> -->
+    </div>
+    <!-- Testing fetch -->
+    <!-- <p> {{ contact.contacts.educations[0].id }} </p>
+    <p> {{ contact.contacts.apps[0].id}}</p> -->
+</div>
