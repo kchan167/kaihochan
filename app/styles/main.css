@@ -3,7 +3,7 @@ html,body
     height:100%;
     overflow-x: auto;
     overflow-y: scroll;
-    -webkit-overflow-scolling: touch;
+    -webkit-overflow-scrolling: touch;
 }
 
 /* Background image */
@@ -241,6 +241,7 @@ ul .app-list-item {
 .contact-button-container a {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 /* Contact-button */
 .contact-btn {
