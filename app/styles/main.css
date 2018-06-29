@@ -6,7 +6,7 @@ html,body
 
 /* Background image */
 body {
-    background: url('/images/background/pexels-photo-323933.jpeg') no-repeat fixed;
+    background: url('images/background/pexels-photo-323933.jpeg') no-repeat fixed;
     background-position: center;
     background-size: cover;
 }
@@ -69,7 +69,7 @@ body {
     background: #222;
     padding: 20px;
     margin-bottom: 0px;
-    background-image: url("/images/background/computer.jpg");
+    background-image: url("images/background/computer.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -126,7 +126,7 @@ button p {
     color: white;
 }
 .app-list-nav {
-    background-image: url('/images/background/wood_pattern.png');
+    background-image: url('images/background/wood_pattern.png');
 }
 
 .app-nav-button {
@@ -202,7 +202,7 @@ ul .app-list-item {
 
 
 .app-detail-view-container {
-    background-image: url('/images/background/wood_pattern.png');
+    background-image: url('images/background/wood_pattern.png');
     min-height: 300px;
 }
 
@@ -224,7 +224,7 @@ ul .app-list-item {
 /* Contact View */
 .contact-view {
     text-align: center;
-    background-image: url('/images/background/phone-1.jpeg');
+    background-image: url('images/background/phone-1.jpeg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -305,7 +305,7 @@ ul .app-list-item {
 
 /* About Me - Timeline */
 .timeline {
-    background: url('/images/background/light-1.jpeg');
+    background: url('images/background/light-1.jpeg');
     background-size: cover;
     background-attachment: scroll;
     background-position: center;
@@ -357,7 +357,7 @@ ul .app-list-item {
   bottom: 0;
   width: 300px;
   padding: 15px;
-  background-image: url('/images/background/memphis-colorful.png');
+  background-image: url('images/background/memphis-colorful.png');
 }
 
 .timeline ul li div::before {
