@@ -52,16 +52,7 @@ var urlToCache = [
     'data/mws_restaurant_stage_1.json',
     'data/personal_info.json',
     'data/portfolio_site.json',
-    'data/resume.pdf',
-    'scripts/app.js',
-    'scripts/controllers/aboutme.js',
-    'scripts/controllers/contact.js',
-    'scripts/controllers/details.js',
-    'scripts/controllers/myapp.js',
-    'scripts/controllers/time.js',
-    'scripts/directives/bg-img.js',
-    'scripts/directives/scroll.js',
-    'scripts/services/infofinder.js'
+    'data/resume.pdf'
 ];
 /**
 * @description Install service worker
