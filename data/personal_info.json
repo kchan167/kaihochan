@@ -1,0 +1,120 @@
+{
+    "firstname": "Kai Ho",
+    "lastname": "Chan",
+    "img": "images/portrait.jpg",
+    "email": "kchan167@my.smccd.edu",
+    "phone": "415-335-1478",
+    "address": "186 School St, Daly City CA 94014",
+    "resume": "data/resume.pdf",
+    "github": "https://github.com/kchan167?tab=repositories",
+    "linkedin": "https://www.linkedin.com/in/kai-ho-chan-64654985",
+    "educations": [
+        {
+            "id": 1,
+            "date": "2008 April - 2009 Spring",
+            "title": "High School",
+            "school": "Balboa High School",
+            "descriptions": [
+                "At 16 yr/o, I settled down with my family in San Francisco and went to Balboa High School.",
+                "I spent little more than a year to complete my high school degree and successfully completed all credits without any fallout and got 3.8 GPA overall."
+            ]
+        },
+        {
+            "id": 2,
+            "date": "2009 Fall - 2012 Spring",
+            "title": "Business",
+            "school": "City College of San Francisco & College of San Mateo",
+            "descriptions": [
+                "Graduating from high school, I went to CCSF and CSM intending to pursue first two years education of a four-year degree in Marketing program."
+            ],
+            "more": [
+                "However, there were too many students and classes were limit enrollment. My plan of transfer to SF State is delayed.",
+                "Overall, I successfully completed all credits without any fallout and got 3.4 GPA in both colleges."
+            ]
+        },
+        {
+            "id": 3,
+            "date": "2012 Fall - 2014 Fall",
+            "title": "Bachelor - Business (Concentration in Marketing)",
+            "school": "San Francisco State University",
+            "descriptions": [
+                "The education was mainly business, but I also learned about technology in business statistics such as SPSS, SQL, and more."
+            ],
+            "more": [
+                "During my time in college, I specialized in marketing.",
+                "Here I learned about the importance of technology, user experience, attention to detail, and problem solving."
+            ]
+        },
+        {
+            "id": 4,
+            "date": "2017 Fall - Current",
+            "title": "Associate - Computer Science Application and Development",
+            "school": "College of San Mateo",
+            "descriptions": [
+                "3 years from my undergraduate completion, I designed to go back college as a full time student and pursue on an Associate Degree - Computer Science Applications and Development."
+            ],
+            "more": [
+                "The education mainly focuses on cultivating students to become computer professionals who are technically competent in computer programming languages, able to use internet programming languages to design and implement a web based program, Work collaboratively and ethically in teams on projects, and more.",
+                "I learnt multiple computer languages from there, such as C++, Java, Python, Javascript and Unix. Until now, I successfully completed all the credits without any fallout and got A grade overall."
+            ]
+        },
+        {
+            "id": 5,
+            "date": "2018 Jan - Current",
+            "title": "Front-End Developer Nano Degree",
+            "school": "Udacity",
+            "descriptions": [
+                "During the associate degree program in CSM, I found my interest in Website development.",
+                "Thus, I signed up the Front-End Web Developer Nanodegree program in Udacity to sharpen my skills specialized in web development."
+            ],
+            "more": [
+                "This program starts from basic html, css, and JavaScript to popular framework such as AngularJS, EmberJS, and ReactJS.",
+                "I also learned to use modern web development tools and softwares such as GitHub, Grunt, and atom.",
+                "The course consists of total 8 projects which help me to pratice and demonstrate the skills that learned from the course.",
+                "This website is the result of learning AngularJS in this course. As of building this website, I am planning to complete this program in July 2018."
+            ]
+        }
+    ],
+    "apps": [
+        {
+            "id": "animal_card",
+            "title": "Animal Card",
+            "icon": "images/icon/dog.png"
+        },
+        {
+            "id": "portfolio_site",
+            "title": "Portfolio",
+            "icon": "images/icon/portfolio.png"
+        },
+        {
+            "id": "memory_game",
+            "title": "Memory Game",
+            "icon": "images/icon/flash.png"
+        },
+        {
+            "id": "classic_arcade_game",
+            "title": "Classic Arcade Game",
+            "icon": "images/icon/arcade-machine.png"
+        },
+        {
+            "id": "feed_reader_testing",
+            "title": "Feed Reader Testing",
+            "icon": "images/icon/chip.png"
+        },
+        {
+            "id": "mws_restaurant_stage_1",
+            "title": "Restaurant Review App",
+            "icon": "images/icon/doughnut.png"
+        },
+        {
+            "id": "itunes_artist_search",
+            "title": "Itunes Artist Search",
+            "icon": "images/icon/itunes.png"
+        },
+        {
+            "id": "calculator",
+            "title": "Calculator",
+            "icon": "images/icon/calculating.png"
+        }
+    ]
+}

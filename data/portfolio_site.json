@@ -1,0 +1,23 @@
+{
+    "id": "portfolio_site",
+    "title": "Portfolio Site",
+    "img":
+        [
+            "images/portfolio_1.jpg",
+            "images/portfolio_mobile.jpg"
+        ],
+    "skills":
+        [
+            "HTML",
+            "CSS"
+        ],
+
+    "url":
+        [
+            "https://github.com/kchan167/portfolio_site"
+        ],
+    "descriptions":
+        [
+            "This is my first time using bootstrap to write a website. It shows the work I have compeleted through Udacity Front-End Web Developer Nanodegree."
+        ]
+}

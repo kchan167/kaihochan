@@ -1,0 +1,26 @@
+{
+    "id": "itunes_search",
+    "title": "Itunes Artist Search",
+    "img":
+        [
+            "images/itune_artist_search.jpg"
+        ],
+    "url":
+        [
+            "https://github.com/kchan167/itunes-search",
+            "https://kchan167.github.io/itunes-search/itunes.html"
+        ],
+    "skills":
+        [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "DOM Manipulation",
+            "iTunes Search API"
+        ],
+    "descriptions":
+        [
+            "This is a simple iTunes artist search app built with iTunes Search API.",
+            "This project is built to help myself to learn in practice by using JavaScript to fetch API to get data."
+        ]
+}

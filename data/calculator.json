@@ -1,0 +1,27 @@
+{
+    "id": "calculator",
+    "title": "Calculator",
+    "img":
+        [
+            "images/calculator.png",
+            "images/calculator-1.png"
+        ],
+    "url":
+        [
+            "https://github.com/kchan167/calculator"
+        ],
+    "skills":
+        [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "DOM Manipulation",
+            "AngularJS"
+        ],
+    "descriptions":
+        [
+            "The is a simple calculator app built by AngularJS.",
+            "This project is built to help myself to learn AngularJS Framework and practice in action.",
+            "This app functions as any simple calculator with +, -, *, / calculation."
+        ]
+}
